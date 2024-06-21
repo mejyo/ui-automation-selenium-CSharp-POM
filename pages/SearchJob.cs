@@ -1,13 +1,13 @@
-﻿using app_automation.Global;
+﻿using App_automation.utilities;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using SeleniumExtras.PageObjects;
 
-namespace app_automation.Pages
+namespace App_automation.Pages
 {
-    class SearchingJob
+    class SearchJob
     {
-        public SearchingJob()
+        public SearchJob()
         {
             PageFactory.InitElements(AppFramework.Global.GlobalDefinitions.driver, this);
         }
